@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  php-apache-design:
+    build:
+      context: ./.docker/
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8081:80
+    volumes:
+      - ./public:/var/www/html
+
+volumes:
+  php-apache-design:

@@ -1,0 +1,17 @@
+{
+  "name": "sales-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "encore dev",
+    "build": "encore production",
+    "watch": "encore dev --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.5.0"
+  }
+}
